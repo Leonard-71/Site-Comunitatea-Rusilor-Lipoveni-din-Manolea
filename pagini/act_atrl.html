@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Activități ATRL</title>
+	
+	<!--bootstarp-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<!-- meta-tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="description" content="Comunitatea Rușilor Lipoveni Manolea">
+	<meta name="keywords" content="clrl, comunitate, lipoveni">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="../style/style.css" >
+    <link rel="icon" href="../imagini/sigla2.png" type="image/x-icon">
+	</head>
+	<body>
+
+		<!-- MENIU -->
+		<nav class="navbar navbar-inverse" id="meniu">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				<a class="navbar-brand" href="../index.html#meniu">CRL Manolea</a>
+				</div>
+				  <ul class="nav navbar-nav">
+					<li><a href="../index.html#meniu">Istoric</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ansamblu
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="berioza.html">Ansamblul Berioza</a></li>
+                            <li class="active"><a href="ramaschi.html">Ansamblul Ramașchi</a></li>
+                            <li><a href="diplome.html">Diplome</a></li>
+						</ul>
+					  </li>
+					<li><a href="expozitie.html">Expoziție foto</a></li>
+					<li><a href="muzeu.html">Muzeu</a></li>
+					<li class="dropdown active">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Activități
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="act_atrl.html">Activități ATRL</a></li>
+							<li><a href="act_crl.html">Activități CRL</a></li>
+						</ul>
+					  </li>
+					  <li><a href="link-uri.html">Link-uri</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					
+					<div class="center"><div onclick="meniu()" id="google_translate_element"></div></div>
+				  </ul>
+				  <form class="navbar-form navbar-right" action="">
+					<div class="input-group">
+					  <input type="text" class="form-control" placeholder="Search" name="search"  onkeyup="showResult(this.value)">  
+					  <div class="input-group-btn">
+						<button class="btn btn-default" type="button">
+						  <i class="glyphicon glyphicon-search"></i>
+						</button>
+					  </div>
+					  <div id="livesearch"></div>
+					</div>
+				  </form>
+			</div>
+        </nav>
+        <div id="content" style="background: rgba(0,0,0,.1)">
+        <h1 style="margin: 0; padding: 40px; text-align:center">Activități ATRL</h1>
+
+
+        <div class="grid">
+            <a href="activitati/act_joaca.html" target="_self">
+            <div class="grid__item">
+              <div class="card"><img class="card__img" src="activitati/act_joaca/6.jpg" alt="">
+                <div class="card__content">
+                  <h1 class="card__header">Ne jucăm și învățăm</h1>
+                  <button class="card__btn">Vizualizați <span>&rarr;</span></button>
+                </div>
+              </div>
+            </div></a>
+            <a href="activitati/film.html" target="_self">
+            <div class="grid__item">
+              <div class="card"><img class="card__img" src="activitati/act_film/coperta.jpg" alt="">
+                <div class="card__content">
+                  <h1 class="card__header">Film</h1>
+                  <button class="card__btn">Vizualizați <span>&rarr;</span></button>
+                </div>
+              </div>
+            </div></a>
+            <a href="activitati/act_felicit.html" target="_self">
+            <div class="grid__item">
+              <div class="card"><img class="card__img" src="activitati/act_felicit/coperta.jpg" alt="">
+                <div class="card__content">
+                  <h1 class="card__header">O felicitare de Crăciun</h1>
+                  <button class="card__btn">Vizualizați <span>&rarr;</span></button>
+                </div>
+              </div>
+            </div> </a>
+			<a href="activitati/film_paste.html" target="_self">
+				<div class="grid__item">
+				  <div class="card"><img class="card__img" src="activitati/activitate_film_paste/1.jpg" alt="">
+					<div class="card__content">
+					  <h1 class="card__header">Traditii si Obiceiuri din Manolea</h1>
+					  <button class="card__btn">Vizualizați <span>&rarr;</span></button>
+					</div>
+				  </div>
+				</div> </a>
+           
+		</div>
+	</div>
+		<div id="footer">
+        
+		</div>
+		
+		<script type="text/javascript" src="../style/js.js"></script>
+		<script type="text/javascript" 
+		src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+  <link>
+    <title>Istoria satului Manolea</title>
+    <url>../../index.html</url>
+  </link>
+  <link>
+    <title>Muzeu</title>
+    <url>../../pagini/muzeu.html</url>
+  </link>
+  <link>
+    <title>Ansamblul Ramaschi</title>
+  <url>../../pagini/ramaschi.html</url>
+  </link>
+  <link>
+    <title>Expozitie</title>
+    <url>../../pagini/expozitie.html</url>
+  </link>
+  <link>
+    <title>Activitate joaca</title>
+    <url>../../pagini/activitati/act_joaca.html</url>
+  </link>
+  <link>
+    <title></title>
+    <url></url>
+  </link>
+</pages>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Ne jucăm și învățăm</title>
+	
+	<!--bootstarp-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<!-- meta-tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="description" content="Comunitatea Rușilor Lipoveni Manolea">
+	<meta name="keywords" content="clrl, comunitate, lipoveni">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../style/style.css" >
+    <link rel="icon" href="../../imagini/sigla2.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../style/baguetteBox.min.css" />
+    <script src="../../style/baguetteBox.min.js"></script>
+	</head>
+	<body>
+
+		<!-- MENIU -->
+		<nav class="navbar navbar-inverse" id="meniu">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				<a class="navbar-brand" href="../../index.html#meniu">CRL Manolea</a>
+				</div>
+				  <ul class="nav navbar-nav">
+					<li><a href="../../index.html#meniu">Istoric</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ansamblu
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="../berioza.html">Ansamblul Berioza</a></li>
+                            <li class="active"><a href="../ramaschi.html">Ansamblul Ramașchi</a></li>
+                            <li><a href="../diplome.html">Diplome</a></li>
+						</ul>
+					  </li>
+					<li><a href="../expozitie.html">Expoziție foto</a></li>
+					<li><a href="../muzeu.html">Muzeu</a></li>
+					<li class="dropdown active">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Activități
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="../act_atrl.html">Activități ATRL</a></li>
+							<li><a href="../act_crl.html">Activități CRL</a></li>
+						</ul>
+					  </li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../link-uri.html">Link-uri</a></li>
+                    <div class="center"><div onclick="meniu()" id="google_translate_element"></div></div>
+				  </ul>
+				  <form class="navbar-form navbar-right" action="">
+					<div class="input-group">
+					  <input type="text" class="form-control" placeholder="Search" name="search"  onkeyup="showResult(this.value)">  
+					  <div class="input-group-btn">
+						<button class="btn btn-default" type="button">
+						  <i class="glyphicon glyphicon-search"></i>
+						</button>
+					  </div>
+					  <div id="livesearch"></div>
+					</div>
+				  </form>
+			</div>
+        </nav>
+        <div id="content" style="background: rgba(0,0,0,.1)">
+            <h1 class="titlu2" style="margin: 0; padding: 40px; text-align:center">Ne jucam si invatam</h1>
+            <p class="paragraf">
+                Activitea „NE JUCĂM ȘI ÎNVĂȚĂM” s-a desfășurat pe data de 15.12.2019 la Sediul Rușilor 
+                Lipoveni din Manolea. În această activitate, tinerii ruși lipoveni au descoperit jocuri 
+                noi si au legat prietenii de durată.
+            </p><br>
+            <div class="gallery">
+                <a href="act_joaca/1.jpg" data-caption="">
+                    <img src="act_joaca/1.jpg" alt="">
+                </a>
+                <a href="act_joaca/3.jpg" data-caption="">
+                    <img src="act_joaca/3.jpg" alt="">
+                </a>
+                <a href="act_joaca/4.jpg" data-caption="">
+                    <img src="act_joaca/4.jpg" alt="">
+                </a>
+                <a href="act_joaca/7.jpg" data-caption="">
+                    <img src="act_joaca/7.jpg" alt="">
+                </a>
+                <a href="act_joaca/5.jpg" data-caption="">
+                    <img src="act_joaca/5.jpg" alt="">
+                </a>
+                <a href="act_joaca/6.jpg" data-caption="">
+                    <img src="act_joaca/6.jpg" alt="">
+                </a>
+                <a href="act_joaca/8.jpg" data-caption="">
+                    <img src="act_joaca/8.jpg" alt="">
+                </a>
+                <a href="act_joaca/9.jpg" data-caption="">
+                    <img src="act_joaca/9.jpg" alt="">
+                </a>
+                <a href="act_joaca/10.jpg" data-caption="">
+                    <img src="act_joaca/10.jpg" alt="">
+                </a>
+                <a href="act_joaca/2.jpg" data-caption="">
+                    <img src="act_joaca/2.jpg" alt="">
+                </a>
+            </div>
+            <a href="../act_atrl.html"><div class="button ice">înapoi</div></a>
+        </div>
+        <div id="footer">
+        
+        </div>
+        
+        <script>
+            window.addEventListener('load', function() {
+                baguetteBox.run('.gallery', {
+                    "overlayBackgroundColor": 'rgba(0,0,0,0.9)'
+                });
+            });
+        </script>
+        <script type="text/javascript" src="../../style/js.js"></script>
+        <script type="text/javascript" 
+		src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </body>
+</html>
